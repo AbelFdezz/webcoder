@@ -1,0 +1,395 @@
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body {
+  background-color: #bcc5df;
+}
+
+.bodyy {
+  margin: 2%;
+  width: auto;
+  align-items: center;
+  background-color: #bcc5df;
+}
+
+.banner img {
+  width: 100%;
+  height: 240px;
+}
+.banner .lescode {
+  width: 350px;
+  height: 130px;
+  position: absolute;
+  top: 50px;
+  right: 20px;
+}
+nav {
+  background-image: url("../images/banner.jpg");
+  margin-top: 30px;
+  font-size: 35px;
+  line-height: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  flex-direction: column;
+  max-inline-size: 0px;
+  position: relative;
+  bottom: 260px;
+  margin-left: 5px;
+  color: #222;
+}
+nav :visited {
+  color: rgb(55, 99, 150);
+}
+nav :hover {
+  color: rgb(55, 99, 150);
+}
+.logo img {
+  justify-content: left;
+  width: 300px;
+  height: 180px;
+  border-radius: 10%;
+}
+h2 {
+  text-align: center;
+  font-size: 40px;
+  margin-top: -100px;
+  margin-bottom: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 10px 10px 10px 10px;
+  background-color: rgb(55, 99, 150);
+  color: #222;
+}
+
+.main {
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  flex-wrap: wrap;
+  color: #222;
+}
+.fecha {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+  margin-bottom: 15px;
+  padding: 10px;
+  border-bottom: dotted #bcc5df;
+  color: #222;
+}
+.curso {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 45px;
+  border-bottom: dotted #bcc5df;
+  padding: 10px;
+  margin-bottom: 15px;
+  color: #222;
+}
+.boton {
+  display: flex;
+  justify-content: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 25px;
+  padding: 10px 7px;
+  color: black;
+  border-color: black;
+  border-radius: 15px;
+  color: #222;
+}
+.boton input {
+  display: flex;
+  justify-content: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 25px;
+  padding: 10px 7px;
+  color: black;
+  border-color: black;
+  border-radius: 15px;
+  color: #222;
+}
+.boton :hover {
+  color: rgb(55, 99, 150);
+}
+
+.grupo {
+  margin: 20px;
+  background-color: #376396;
+  border-radius: 2%;
+  padding: 10px;
+  border-radius: 10%;
+}
+
+.mentores {
+  background-color: #376396;
+  display: grid;
+  gap: 30px;
+  margin-bottom: 45px;
+  border-radius: 25px;
+  color: #222;
+}
+.mentor {
+  display: inline-flex;
+  min-width: 750px;
+}
+.foto {
+  display: inline-flex;
+}
+.foto img {
+  display: inline-flex;
+  width: 250px;
+  height: 250px;
+  border-radius: 10%;
+}
+.infoContacto {
+  font-size: 20px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 40px;
+  color: #222;
+}
+.final {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+.mapa img {
+  height: 300px;
+  width: 350px;
+}
+
+.logo2 {
+  display: inline-flex;
+  height: 260px;
+  margin-bottom: 30px;
+}
+.aprender {
+  font-size: 25px;
+  margin-left: 15%;
+  margin-right: 15%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.bio {
+  padding: 40px;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  justify-content: left;
+}
+h4 {
+  text-align: center;
+  font-size: 40px;
+  margin-top: -100px;
+  margin-bottom: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 10px 10px 10px 10px;
+  background-color: #376396;
+  color: #222;
+}
+table,
+th,
+td {
+  border: 4px solid rgb(55, 99, 150);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 6px;
+}
+table {
+  width: 100%;
+  text-align: center;
+  border-radius: 20px;
+  margin-bottom: 150px;
+}
+th {
+  font-size: 24px;
+}
+
+th:nth-child(odd) {
+  color: rgb(55, 99, 150);
+}
+tr {
+  font-size: 14px;
+}
+td:first-child {
+  font-weight: bold;
+  font-size: 20px;
+}
+td:last-child {
+  text-align: left;
+}
+tr:nth-child(2n + 0) {
+  background-color: rgb(160, 194, 221);
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: 100%;
+  height: auto;
+  margin-top: 50px;
+  column-gap: 5px;
+  text-align: left;
+}
+
+.caja {
+  border: 4px solid rgb(55, 99, 150);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 5px;
+  border-radius: 20px;
+  width: auto;
+}
+.caja .seccion_caja {
+  font-weight: bold;
+  text-align: center;
+  font-size: 13px;
+  padding: 5px;
+}
+.caja p {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 5px;
+  text-align: center;
+  text-decoration-line: underline;
+}
+.caja a {
+  font-size: 13px;
+  padding: 5px;
+}
+dt {
+  text-align: center;
+  font-size: 13px;
+  padding: 8px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+dd {
+  text-align: center;
+}
+h3 {
+  text-align: left;
+  font-size: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 10px 10px 10px 10px;
+  background-color: rgb(55, 99, 150);
+  color: #222;
+}
+ul,
+ol {
+  list-style-type: none;
+  text-align: left;
+}
+li {
+  text-align: left;
+  font-size: 13px;
+  margin-bottom: 15px;
+}
+.formularios {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 7px;
+  justify-content: space-around;
+  background-color: rgb(55, 99, 150);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  margin-top: -100px;
+}
+.formulario1 {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  justify-content: center;
+}
+.formulario1 input {
+  display: inline-block;
+  padding: 10px;
+  border: 4px solid rgb(55, 99, 150);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  height: 55px;
+}
+fieldset {
+  text-align: center;
+  border: 0px;
+}
+.formulario2 {
+  flex-grow: 8;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  text-align: center;
+  padding: 5px;
+}
+.formulario2 .elegirCurso {
+  display: flex;
+  flex-direction: column;
+}
+.formulario2 .elegirCurso2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  gap: 5px;
+}
+
+.formulario2 .ciudad select {
+  font-size: 25px;
+}
+.formulario2 .fecha2 input {
+  font-size: 30px;
+}
+.formulario2 p {
+  margin-top: 10px;
+  padding: 5px;
+}
+
+.formulario2 .checkbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 15px;
+  align-items: center;
+
+  font-size: 14px;
+}
+.checkbox2 {
+  display: flex;
+  flex-flow: column wrap;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.formulario3 {
+  display: flex;
+  flex-flow: row wrap;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 25px;
+  justify-content: center;
+  background-color: rgb(55, 99, 150);
+  align-items: flex-end;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.formulario3 button {
+  display: flex;
+  justify-content: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 10px 7px;
+  color: black;
+  border-color: black;
+  border-radius: 15px;
+  color: #222;
+  height: 25%;
+}
+textarea {
+  border-radius: 15px;
+  font-size: 18px;
+  padding: 5px;
+}

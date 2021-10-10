@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style2.css">
+    <title>Let's Coder</title>
+</head>
+
+<body>
+
+    <div class="banner"><img src="./images/banner.jpg" alt="banner">
+        <!-- navegador -->
+        <nav>
+            <a href="./home.html">Home</a>
+            <a href="./conocenos.html">Conócenos</a>
+            <a href="./cotacto.html">Contacto</a>
+            <a href="./info.html">Información</a>
+            <a href="./inscripcion.html"><b>Inscripción</b></a>
+        </nav>
+        <img class="lescode" src="./images/letscoder-sin-fondo.png" alt="letscoder">
+    </div>
+    <div class="bodyy">
+        <div class="formularios">
+            <!-- formulario de datos -->
+            <div class="formulario1">
+                <fieldset>
+                    <input type="text" name="nombre" id="nombre" placeholder="nombre" required>
+                    <input type="text" name="apellidos" id="apellidos" placeholder="apellidos" required>
+                </fieldset>
+                <fieldset>
+                    <input type="number" name="edad" id="edad" placeholder="edad" required>
+                    <input type="text" name="país" id="pais" placeholder="país" required>
+                </fieldset>
+                <fieldset>
+                    <input type="text" name="ciudad" id="ciudad" placeholder="ciudad" required>
+                    <input type="number" name="código postal" id="postal" placeholder="código postal" required>
+                </fieldset>
+                <fieldset>
+                    <input type="email" name="correo" id="correo" placeholder="correo electrónico" required>
+                    <input type="tel" name="teléfono" id="telefono" placeholder="teléfono" required>
+                </fieldset>
+            </div>
+            <div class="formulario2">
+                <!-- formulario de curso -->
+                <div class="elegirCurso">
+                    <div class="elegirCurso1">
+                        <p>Elige el curso en el que quieras inscribirte</p>
+                    </div>
+                    <div class="elegirCurso2">
+                        <input type="radio" id="fulltime" name="contact">
+                        <label for="fulltime">Full -time </label>
+                    </div>
+                    <div class="elegirCurso2">
+                        <input type="radio" id="parttime" name="contact">
+                        <label for="parttime">Part -time</label>
+                    </div>
+                    <div class="elegirCurso2">
+                        <input type="radio" id="presencial" name="contact">
+                        <label for="presencial"> Presencial </label>
+                    </div>
+                </div>
+                <div class="ciudad">
+                    <p>Si quieres hacerlo presencial, elige tu ciudad</p>
+                    <select name="Ciudad">
+                        <option>Online</option>
+                        <option>Madrid</option>
+                        <option>Barcelona</option>
+                        <option>Zaragoza</option>
+                        <option>Valencia</option>
+                        <option>Sevilla</option>
+                        <option>Málaga</option>
+                        <option>Murcia</option>
+                        <option>Las Palmas de Gran Canaria</option>
+                        <option>Bilbao</option>
+                        <option>Alicante</option>
+                    </select>
+                </div>
+                <p>Fecha en la que te gustaría comenzar</p>
+                <div class="fecha2">
+                    <input type="date" name="fecha" value="">
+                </div>
+                <p>Dinos en qué tecnologías tienes alguna noción</p>
+                <div class="checkbox">
+                    <div class="checkbox2">
+                        <input type="checkbox" name="tec" id="html"> HTML
+                        <input type="checkbox" name="tec" id="css"> CSS
+                    </div>
+                    <div class="checkbox2">
+                        <input type="checkbox" name="tec" id="js"> Javascript
+                        <input type="checkbox" name="tec" id="git"> Git
+                    </div>
+                    <div class="checkbox2">
+                        <input type="checkbox" name="tec" id="oracle">Oracle
+                        <input type="checkbox" name="sql" id="sql">SQL Server
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="formulario3">
+            <textarea cols="45" rows="6" placeholder="¿Algo que añadir?"></textarea>
+            <div class="boton">
+                <form action="https://c.tenor.com/Xd_JAX5mzKIAAAAC/rickroll.gif" target="_blank">
+                    <input type="submit" value="Enviar" />
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
